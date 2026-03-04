@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="Networking Lab Topology">
+  <rect width="1200" height="700" fill="#f8fafc"/>
+  <text x="56" y="62" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700" fill="#0f172a">Networking Lab Topology</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="18" fill="#475569" font-weight="600">
+    <text x="92" y="132">Network Layer</text>
+    <text x="92" y="372">Client Layer</text>
+    <text x="92" y="588">Diagnostics Layer</text>
+  </g>
+
+  <g stroke="#cbd5e1" stroke-width="2">
+    <rect x="80" y="150" width="1040" height="180" rx="12" fill="#dbeafe"/>
+    <rect x="80" y="392" width="1040" height="160" rx="12" fill="#dcfce7"/>
+    <rect x="80" y="602" width="1040" height="58" rx="12" fill="#ffffff"/>
+
+    <rect x="160" y="198" width="240" height="88" rx="12" fill="#ffffff"/>
+    <rect x="480" y="198" width="240" height="88" rx="12" fill="#ffffff"/>
+    <rect x="800" y="198" width="240" height="88" rx="12" fill="#ffffff"/>
+
+    <rect x="220" y="430" width="280" height="88" rx="12" fill="#ffffff"/>
+    <rect x="700" y="430" width="280" height="88" rx="12" fill="#ffffff"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" fill="#1e293b">
+    <text x="212" y="252" font-size="22" font-weight="700">🌐 Internet</text>
+    <text x="536" y="252" font-size="22" font-weight="700">📡 Router</text>
+    <text x="858" y="252" font-size="22" font-weight="700">🔀 Switch</text>
+
+    <text x="256" y="484" font-size="22" font-weight="700">💻 Windows Client</text>
+    <text x="744" y="484" font-size="22" font-weight="700">🐧 Linux VM</text>
+
+    <text x="108" y="640" font-size="20" fill="#334155" font-family="Courier New">ipconfig | ping 10.0.0.10 | tracert 8.8.8.8 | nslookup</text>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <g stroke="#64748b" stroke-width="3" marker-end="url(#arrow)">
+    <line x1="400" y1="242" x2="480" y2="242"/>
+    <line x1="720" y1="242" x2="800" y2="242"/>
+    <line x1="600" y1="286" x2="600" y2="392"/>
+    <line x1="600" y1="392" x2="360" y2="392"/>
+    <line x1="600" y1="392" x2="840" y2="392"/>
+    <line x1="360" y1="392" x2="360" y2="430"/>
+    <line x1="840" y1="392" x2="840" y2="430"/>
+  </g>
+</svg>

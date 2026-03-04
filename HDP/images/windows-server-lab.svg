@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="Windows Server Domain Environment">
+  <rect width="1200" height="700" fill="#f8fafc"/>
+  <text x="56" y="62" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700" fill="#0f172a">Windows Server Domain Environment</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="18" fill="#475569" font-weight="600">
+    <text x="92" y="132">Server Layer</text>
+    <text x="92" y="374">Client Layer</text>
+  </g>
+
+  <g stroke="#cbd5e1" stroke-width="2" rx="12">
+    <rect x="80" y="150" width="500" height="190" fill="#ede9fe"/>
+    <rect x="620" y="150" width="500" height="190" fill="#dbeafe"/>
+    <rect x="80" y="392" width="500" height="190" fill="#dcfce7"/>
+    <rect x="620" y="392" width="500" height="190" fill="#dcfce7"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" fill="#1e293b">
+    <text x="106" y="196" font-size="24" font-weight="700">🖥 Windows Server</text>
+    <text x="106" y="232" font-size="20">Active Directory, DNS, DHCP</text>
+    <text x="106" y="268" font-size="20">User and Group Management</text>
+
+    <text x="646" y="196" font-size="24" font-weight="700">📡 Domain Services</text>
+    <text x="646" y="232" font-size="20">Authentication and Policies</text>
+    <text x="646" y="268" font-size="20">Troubleshooting and Validation</text>
+
+    <text x="106" y="438" font-size="24" font-weight="700">💻 Windows 11 Client</text>
+    <text x="106" y="474" font-size="20">Domain Join and Login Tests</text>
+
+    <text x="646" y="438" font-size="24" font-weight="700">🐧 Linux VM</text>
+    <text x="646" y="474" font-size="20">Connectivity and DNS Checks</text>
+  </g>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <g stroke="#64748b" stroke-width="3" marker-end="url(#arrow)">
+    <line x1="330" y1="340" x2="330" y2="392"/>
+    <line x1="870" y1="340" x2="870" y2="392"/>
+  </g>
+</svg>
