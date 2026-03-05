@@ -242,8 +242,9 @@ ul {
   width: fit-content;
   font-size: 0.78rem;
   font-weight: 700;
-  color: #ffffff;
-  background: var(--accent);
+  color: #0f172a;
+  background: #ccfbf1;
+  border: 1px solid #99f6e4;
   padding: 0.18rem 0.48rem;
   border-radius: 999px;
   margin-bottom: 0.5rem;
